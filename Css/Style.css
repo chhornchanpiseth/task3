@@ -1,0 +1,133 @@
+body{
+    background-image: url("../image/color_line.png");
+    background-repeat: repeat-x;
+    background-color:#efefef;
+
+    margin: 0;
+    padding: 0;
+}
+
+.menu-wrapper{
+    width: 100%;
+    margin: auto;
+    font-size: 30px; 
+    height: 70px;
+    background-color:cadetblue;
+    
+    
+}
+.navbar{
+    font-size: 2em;
+    float: left;
+}
+.menu-wrapper ul{
+    list-style: none;
+    float: left;
+    /*line-height: 0;*/
+   
+}
+li{
+    display: inline;
+    
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    color:blueviolet;
+}
+.menu-wrapper ul li a:hover{
+    text-decoration: underline;
+    color:crimson;
+
+}
+.wrapper{
+    width:890px; 
+	margin:auto;
+    
+}
+
+.navbar{
+    font-weight: bold;
+    /*line-height: 0; */
+}
+.menu-wrapper{
+    
+	border-bottom:2px solid #294c7a;
+	margin-bottom:15px;
+    border-top:1px solid #294c7a;
+}
+
+.left_side{
+    float: left;
+    width: 50%;
+    background-color:aliceblue;
+    height: 835px;
+}
+#content>img{
+    box-shadow: grey 0px 0px 15px 2px;
+    margin: 15px 0px 10px 15px;
+}
+.right_side{
+    float: right;
+    width: 45%;
+    background-color:aliceblue;
+}
+.right_side p,h1{
+    margin: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#clear_both{
+    clear: both;
+}
+.card{
+    margin-bottom: 15px;
+    width: 280px;
+    /* border: 1px solid red; */
+    background-color: rgb(118, 107, 218);
+    border-top-right-radius: 20px;
+    color: white;
+    box-shadow: rgb(182, 182, 182) 2px 0px 15px 3px;
+   
+}
+.courses{
+    display: flex; 
+    flex-direction: column; 
+}
+.card-layout{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+.card>img{
+    width: 180px;
+    text-align: center;
+    margin: 5%;
+    border: white 3px solid;
+}
+.card>hr{
+    margin: 7%;
+}
+.card>p{
+    text-align: justify;
+    margin: 7%;
+}
+.card>h4{
+    font-size: 1.5vw;
+}
+.pic1{
+    float: left;
+    width: 50%;
+    
+}
+.pic2{
+    float: right;
+    width: 50%;
+    
+}
+#content p{
+    margin: 30px 10px 30px 10px;
+}
+
